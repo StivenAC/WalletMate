@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Theme.FinanceApk" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#1D3557</item> <!-- Azul oscuro -->
+        <item name="colorPrimaryVariant">#1D3557</item> <!-- Azul oscuro -->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- Blanco -->
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">#F4A261</item> <!-- Naranja suave -->
+        <item name="colorSecondaryVariant">#F4A261</item> <!-- Naranja suave -->
+        <item name="colorOnSecondary">#333333</item> <!-- Gris oscuro -->
+
+        <!-- Text color -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Blanco -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item> <!-- Bien -->
+    </style>
+
+    <style name="ShapeAppearanceOverlay.FloatingActionButton" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

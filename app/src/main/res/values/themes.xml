@@ -1,0 +1,87 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.FinanceApk" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary color -->
+        <item name="colorPrimary">#1D3557</item> <!-- Azul oscuro -->
+        <item name="colorPrimaryVariant">#1D3557</item> <!-- Azul oscuro -->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- Blanco -->
+
+        <!-- Secondary color -->
+        <item name="colorSecondary">#F4A261</item> <!-- Naranja suave -->
+        <item name="colorSecondaryVariant">#F4A261</item> <!-- Naranja suave -->
+        <item name="colorOnSecondary">#333333</item> <!-- Gris oscuro -->
+
+        <!-- Background color -->
+        <item name="android:windowBackground">#FFFFFF</item> <!-- Blanco -->
+        <item name="colorSurface">#A8DADC</item> <!-- Verde menta -->
+        <item name="colorOnSurface">#333333</item> <!-- Gris oscuro -->
+
+        <!-- Text Colors -->
+        <item name="android:textColor">#333333</item> <!-- Gris oscuro -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item> <!-- Bien -->
+
+        <!-- Elevated Components -->
+        <item name="colorBackgroundFloating">#A8DADC</item> <!-- Verde menta -->
+    </style>
+
+    <!-- Amount Style -->
+    <style name="TextAppearance.AmountBalance" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textColor">@color/white</item> <!-- Blanco -->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.AmountIncome" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textColor">@color/green</item> <!-- Verde menta -->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.AmountExpense" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textColor">@color/red</item> <!-- Naranja suave -->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Labels -->
+    <style name="TextAppearance.Label" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">?attr/colorOnSurface</item> <!-- Gris oscuro -->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- HeadLines -->
+    <style name="TextAppearance.HeadLine1Bold" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textColor">@color/purple_200</item> <!-- Azul oscuro -->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.HeadLine2Bold" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textColor">@color/purple_200</item> <!-- Azul oscuro -->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.HeadLine3Bold" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:textColor">@color/purple_200</item> <!-- Azul oscuro -->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.HeadLine1" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:textColor">@color/purple_200</item> <!-- Azul oscuro -->
+    </style>
+
+    <style name="TextAppearance.HeadLine2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textColor">@color/purple_200</item> <!-- Azul oscuro -->
+    </style>
+
+    <style name="TextAppearance.HeadLine3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:textColor">@color/purple_200</item> <!-- Azul oscuro -->
+    </style>
+
+    <!-- Inputs -->
+    <style name="TextAppearance.Input" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textColor">?attr/colorOnSurface</item> <!-- Gris oscuro -->
+    </style>
+    <!-- Agrégalo dentro de <resources> -->
+    <style name="DialogThemeWhite" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="colorSurface">@android:color/white</item>
+        <item name="colorOnSurface">@color/black</item> <!-- Texto oscuro -->
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+</resources>

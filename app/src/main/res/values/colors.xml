@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFFFFF</color> <!-- Azul oscuro -->
+    <color name="purple_500">#1D3557</color> <!-- Azul oscuro -->
+    <color name="purple_700">#1D3557</color> <!-- Azul oscuro -->
+    <color name="teal_200">#A8DADC</color> <!-- Verde menta -->
+    <color name="teal_700">#A8DADC</color> <!-- Verde menta -->
+
+    <color name="background_color">#FFFFFF</color> <!-- Blanco -->
+    <color name="colorSurfaceBack">#333333</color> <!-- Gris oscuro -->
+    <color name="blue_200">#1D3557</color> <!-- Azul oscuro -->
+    <color name="blue_500">#1D3557</color> <!-- Azul oscuro -->
+    <color name="blue_700">#1D3557</color> <!-- Azul oscuro -->
+
+    <color name="button">#F4A261</color> <!-- Naranja suave -->
+    <color name="cardBackground">#FFFFFF</color> <!-- Blanco -->
+    <color name="bottomNav">#FFFFFF</color> <!-- Blanco -->
+    <color name="background">#A8DADC</color> <!-- Verde menta (de fondo se puede ver bonito) -->
+    <color name="background_deep">#A8DADC</color> <!-- Verde menta -->
+    <color name="textSecondary">#333333</color> <!-- Gris oscuro -->
+    <color name="textPrimary">#000000</color> <!-- Azul oscuro -->
+    <color name="black">#FF000000</color> <!-- Gris oscuro -->
+    <color name="white">#FFFFFF</color> <!-- Blanco -->
+    <color name="transparent">#0000FFFF</color> <!-- Transparente se mantiene -->
+    <color name="azul">#1D3557</color> <!-- Transparente se mantiene -->
+
+    <color name="splashBackground">#1D3557</color> <!-- Azul oscuro -->
+
+    <!-- Pi chart Colors -->
+    <color name="green">#A8DADC</color> <!-- Verde menta -->
+    <color name="rojo">#FF0000</color> <!-- Verde menta -->
+    <color name="verde">#4CAF50</color> <!-- Verde menta -->
+    <color name="green_light">#A8DADC</color> <!-- Verde menta -->
+    <color name="red">#F4A261</color> <!-- Naranja suave -->
+    <color name="red_light">#F4A261</color> <!-- Naranja suave -->
+    <color name="lightBrown">#1D3557</color> <!-- Azul oscuro -->
+    <color name="lightBrown_light">#A8DADC</color> <!-- Verde menta -->
+    <color name="violet">#1D3557</color> <!-- Azul oscuro -->
+    <color name="violet_light">#A8DADC</color> <!-- Verde menta -->
+    <color name="yellow">#F4A261</color> <!-- Naranja suave -->
+    <color name="yellow_light">#F4A261</color> <!-- Naranja suave -->
+    <color name="lightBlue">#A8DADC</color> <!-- Verde menta -->
+    <color name="lightBlue_light">#FFFFFF</color> <!-- Blanco -->
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="12dp"
+        android:padding="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perfil"
+            android:textSize="22sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins_bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            tools:ignore="SmallSp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_your_name"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_marginTop="13dp">
+
+            <AutoCompleteTextView
+                android:id="@+id/currency_selector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Seleccionar moneda"
+                android:textColor="@color/white"
+                android:inputType="none"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginTop="13dp" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cerrar sesión"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginTop="13dp" />
+
+    </LinearLayout>
+</ScrollView>

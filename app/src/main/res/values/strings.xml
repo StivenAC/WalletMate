@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">WalletMate</string>
+    <string name="login_your_account_here">Inicia sesión en tu cuenta</string>
+    <string name="enter_your_email">Ingresa tu correo</string>
+    <string name="enter_your_password">Ingresa tu contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="do_not_have_register">¿No tienes cuenta?</string>
+    <string name="register_your_account">Registra tu cuenta</string>
+    <string name="enter_your_name">Ingresa tu nombre</string>
+    <string name="enter_your_phone_number">Ingresa tu teléfono</string>
+    <string name="enter_your_password_again">Confirma tu contraseña</string>
+    <string name="register">Registrarse</string>
+    <string name="already_have_account">¿Ya tienes cuenta?</string>
+    <string name="setting">Configuración</string>
+    <string name="light_dark">Tema claro/oscuro</string>
+    <string name="write_something">Escribe algo…</string>
+    <string name="save">Guardar</string>
+    <string name="my_account">Mi cuenta</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="answer">Respuesta</string>
+    <string name="question">Pregunta</string>
+    <string name="select_image">Seleccionar imagen</string>
+    <string name="hello_blank_fragment">Fragmento vacío</string>
+    <string name="welcome_to_walletmate" />
+</resources>
