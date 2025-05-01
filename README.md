@@ -10,15 +10,15 @@
 
 | Pantalla de Inicio | Inicio de Sesión | Registro |
 |--------------------|------------------|----------|
-| <img src="https://i.postimg.cc/3dLbRFqg/splash-screen.png" width="250"/> | <img src="https://i.postimg.cc/jwdszXsR/a11.png" width="250"/> | <img src="https://i.postimg.cc/TKgYG17v/a12.png" width="250"/> |
+| <img src="https://i.postimg.cc/4ds1Jjdj/imagen-2025-05-01-181651114.png" width="250"/> | <img src="https://i.postimg.cc/KjVLgWGG/imagen-2025-05-01-181748055.png" width="250"/> | <img src="https://i.postimg.cc/rm7xDbF8/imagen-2025-05-01-182555957.png" width="250"/> |
 
 | Pantalla Principal | Transacciones | Perfil |
 |--------------------|---------------|--------|
-| <img src="https://i.postimg.cc/1gSRzS2n/a4.png" width="250"/> | <img src="https://i.postimg.cc/p9BWh7M0/a8.png" width="250"/> | <img src="https://i.postimg.cc/mzXTVHDC/a7.png" width="250"/> |
+| <img src="https://i.postimg.cc/SsPjZzwV/imagen-2025-05-01-182117129.png" width="250"/> | <img src="https://i.postimg.cc/8P6f0tkv/imagen-2025-05-01-181925927.png" width="250"/> | <img src="https://i.postimg.cc/kMVy7NXJ/imagen-2025-05-01-182151070.png" width="250"/> |
 
 | Gráfico de Ingresos/Gastos | Detalles de Transacción | Actualización de Moneda en Perfil |
 |----------------------------|--------------------------|-----------------------------------|
-| <img src="https://i.postimg.cc/Th1d1C79/a9.png" width="250"/> | <img src="https://i.postimg.cc/F169L3wQ/a10.png" width="250"/> | <img src="https://i.postimg.cc/H8rdNkcK/a6.png" width="250"/> |
+| <img src="https://i.postimg.cc/vBx6wz7C/imagen-2025-05-01-183059382.png" width="250"/> | <img src="https://i.postimg.cc/fy0y1Rss/imagen-2025-05-01-182133866.png" width="250"/> | <img src="https://i.postimg.cc/FHPffqD2/imagen-2025-05-01-183228176.png" width="250"/> |
 
 ---
 
@@ -62,7 +62,7 @@
 ### **Instalación**
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/Progambler227788/Finance_Tracker_App.git
+   git clone https://github.com/StivenAC/WalletMate.git
    ```
 2. Abre el proyecto en Android Studio.  
 3. Compila y ejecuta la app en tu dispositivo o emulador.
@@ -98,19 +98,24 @@ WalletMate/
 
 ---
 
-## 🧑‍💻 Contribuciones
 
-¡Las contribuciones son bienvenidas! Si deseas colaborar:
-1. Haz un fork del repositorio.  
-2. Crea una nueva rama (`git checkout -b feature/TuNuevaFuncionalidad`).  
-3. Realiza tus cambios y haz commit (`git commit -m 'Agrega una nueva funcionalidad'`).  
-4. Haz push a tu rama (`git push origin feature/TuNuevaFuncionalidad`).  
-5. Abre un Pull Request.
+## 🗂️ Estructura del Proyecto
+La aplicación está organizada siguiendo la arquitectura MVVM, con una separación clara entre la lógica, la interfaz y los datos:
+
+- model/ → Clases de datos, como Transaction.
+
+- viewmodel/ → Lógica de presentación y conexión con la base de datos (por ejemplo, TransactionViewModel).
+
+- adapter/ → Adaptadores para RecyclerView que muestran las transacciones.
+
+- ui/ o Fragments → Componentes visuales como TransactionsListFragment.
+
+- utils/ → Utilidades como PDFExporter para generar resúmenes en PDF.
+
+- res/layout/ → Archivos XML con los diseños de pantalla.
+
+- MainActivity.kt → Actividad principal que actúa como contenedor de fragments.
+
 
 ---
 
-## 🙏 Agradecimientos
-
-- [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) por los gráficos interactivos.  
-- [Firebase](https://firebase.google.com/) por la autenticación.  
-- [Android Developers](https://developer.android.com/) por la documentación oficial.
